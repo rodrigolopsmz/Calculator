@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import { Child } from './src/firstComp';
 function App() {
     return (
       <div>
-
+        <Child/>
       </div>
     )
   }
