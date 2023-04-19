@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Child } from './src/firstComp';
+import { Calculator } from './src/Calculator';
 function App() {
     return (
-      <div>
-        <Child/>
-      </div>
+      <>
+        <Calculator/>
+      </>
     )
   }
   const root = ReactDOM.createRoot(document.getElementById('app'));

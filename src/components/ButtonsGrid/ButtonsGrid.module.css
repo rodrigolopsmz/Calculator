@@ -1,0 +1,14 @@
+.buttonsGrid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-flow: row;
+    gap: 10px;
+}
+.emptyDiv{
+    grid-area: 1 / 2 / span 1 / span 2;
+}
+.zeroButton{
+    grid-area: 5 / 1 / span 1 / span 2;
+}
