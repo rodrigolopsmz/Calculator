@@ -7,7 +7,7 @@ import { Screen } from './components/Screen/Screen';
 import { ButtonsGrid } from './components/ButtonsGrid/ButtonsGrid';
 export function Calculator() {
     const [currentOperation, setCurrentOperation] = React.useState ('')
-    const [currentResult, setCurrentResult] = React.useState ('')
+    const [currentResult, setCurrentResult] = React.useState ('0')
     const propsToSend = {currentOperation: currentOperation, 
                         setCurrentOperation: setCurrentOperation,
                         currentResult: currentResult, 
